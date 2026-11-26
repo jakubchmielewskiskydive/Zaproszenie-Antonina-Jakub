@@ -356,7 +356,7 @@ form .btn{width:100%;margin-top:.2rem}
   }else rv.forEach(function(n){n.classList.add("in")});
 
   // Potwierdzenie obecności → arkusz Google
-  var SHEET_URL=""; // wklej adres aplikacji internetowej Google Apps Script (kończy się na /exec)
+  var SHEET_URL="https://script.google.com/macros/s/AKfycbwgLWMCug0Red0sjmb1PCdSK_a3EdQGjM2n9nGCimEj6bLSHjTHVYlH8GZTWEG5JP-KdQ/exec"; // wklej adres aplikacji internetowej Google Apps Script (kończy się na /exec)
   var form=document.getElementById("rsvpForm"),people=document.getElementById("people"),err=document.getElementById("err"),sending=false;
   function prow(first){var d=document.createElement("div");d.className="prow";
     d.innerHTML='<input type="text" name="osoba" placeholder="Imię i nazwisko" maxlength="80" autocomplete="'+(first?"name":"off")+'" aria-label="Imię i nazwisko">';
